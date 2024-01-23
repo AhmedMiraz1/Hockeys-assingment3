@@ -36,8 +36,68 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header>
+    <header class="container mx-auto px-3 lg:px-24 pt-7 lg:py-16">
       <!-- ----------navbar section start here ----------- -->
+      <nav class="container mx-auto px-3 lg:px-24 my-16">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+
+            <h1 class="text-2xl lg:text-4xl font-semibold lg:font-extrabold text-[#131318] ">Hockey<span class="text-[#FF4240;]">'</span>s</h1>
+          </div>
+
+          <div class="navbar-center hidden lg:flex">
+            <ul class="flex gap-12  px-1">
+              <li class="text-[#424247] text-base font-bold space-x-11 hover:text-[#FF4240]"><a>Home</a></li>
+              <li class="text-[#424247] text-base font-bold hover:text-[#FF4240]">
+                <a>About</a>
+              </li>
+              <li class="text-[#424247] text-base font-bold hover:text-[#FF4240]">
+                <a>Pages </a>
+              </li>
+              <li class="text-[#424247] text-base font-bold hover:text-[#FF4240]">
+                <a>Blog </a>
+              </li>
+              <li class="text-[#424247] text-base font-bold hover:text-[#FF4240]">
+                <a>Contact  </a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="hidden lg:flex" href=""><i class="fa-regular fa-magnifying-glass"></i></a>
+            <a class=" bg-[#FF4240] text-white rounded-lg py-2 lg:py-4 px-3 lg:px-6 text-xl font-medium lg:font-bold"
+              >Get Ticket</a
+            >
+          </div>
+        </div>
+      </nav>
       <!-- ----------navbar section ends here ----------- -->
 
       <!---------------------banner section start here ----------------- -->
@@ -380,7 +440,7 @@
                     Price - $22.00
                   </p>
                   <p class="text-base font-medium text-[#13131880]">
-                    <i class="fa-regular fa-cart-plus mr-2"></i> Delivery Fee :
+                    <i class="fa-regular fa-cart-shopping"></i> Delivery Fee :
                     Free
                   </p>
                 </div>
